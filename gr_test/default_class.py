@@ -7,9 +7,3 @@ class Default(object):
             self.name = "default_name"
 
         print("Extra line added in commit.")
-
-    def get_name(self):
-        if self.name:
-            return self.name
-        else:
-            raise NotImplementedError("Class name not initialized")
